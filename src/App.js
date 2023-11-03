@@ -1,10 +1,12 @@
 import './App.css';
-import Pillar from './components/pillar';
+import NavBar from './components/NavBar';
+import Homepage from './components/Homepage';
 
 function App() {
   return (
-  <div>
-    <Pillar/>
+  <div className='bg-[#121212]'>
+    <NavBar/>
+    <Homepage/>
   </div>
 
 
